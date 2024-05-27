@@ -1,0 +1,27 @@
+input[type=email]{
+    padding: 1rem;
+    width: 350px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 0px;
+    border-radius:20px 0 0 20px;
+    
+    
+}
+
+button[type=submit]{
+    padding: 1rem;
+    width: 100px;
+    background-color: greenyellow;
+    border-radius:0 30px 30px 0;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-left: 0px;
+    cursor: pointer;
+    transition: 200ms;
+    &:hover{
+        background-color: rgb(114, 187, 4);
+    }
+}
